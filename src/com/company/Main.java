@@ -86,10 +86,9 @@ public class Main {
             System.out.print(" " +(char) twix[i]);
         }
         System.out.println();
-        int [] token = new int[] {33,34,35,36,37,38,39,40,41,42};
         System.out.print("token - ");
-        for (int i=0; i< token.length; i++){
-            System.out.print(" " +(char) token[i]);
+        for (int i=33; i< 42; i++){
+            System.out.print(" " +(char) i);
         }
     }
 }
